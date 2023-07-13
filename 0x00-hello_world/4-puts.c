@@ -1,7 +1,7 @@
 /*
  * File: 4-puts.c
  * Auth: Musa_kalamz A Ogunsolu
- * */
+ */
 
 #include <stdio.h>
 
