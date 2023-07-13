@@ -1,3 +1,6 @@
+[ALX C Programming language project]![image](https://user-images.githubusercontent.com/105258746/189208480-2fccc610-22af-4ed9-8928-2ebf0e99b002.png)
+
+
 # C - Hello, World
 
 In this project, I learned about compilation using `gcc`, entry
