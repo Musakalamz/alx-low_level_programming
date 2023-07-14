@@ -1,6 +1,6 @@
 /*
  * File: 0-positive_or_negative.c
- * Auth: Musakalamz A Ogunsolu
+ * Auth: Musa_kalamz A Ogunsolu
  */
 
 #include <stdlib.h>
