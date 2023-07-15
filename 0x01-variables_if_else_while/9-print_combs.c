@@ -1,30 +1,29 @@
 /*
-*File:9-print_comb.c
-*Auth:Musa_kalamzAOgunsolu
-*/
+ * File: 9-print_comb.c
+ * Auth: Musa_kalamz A Ogunsolu
+ */
 
-#include<stdio.h>
+#include <stdio.h>
 
 /**
-*main-Printsallpossiblecombinationsofsingle-digitnumbers.
-*
-*Return:Always0.
-*/
-intmain(void)
+ * main - prints all possible combinations of single-digit numbers
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
 {
-intnum;
+	int n;
 
-for(num=0;num<=9;num++)
-{
-putchar((num%10)+'0');
-if(num==9)
-continue;
-
-putchar(',');
-putchar('');
-}
-
-putchar('\n');
-
-return(0);
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+		if (n != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }
