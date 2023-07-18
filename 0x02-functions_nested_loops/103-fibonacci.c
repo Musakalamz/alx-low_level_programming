@@ -1,6 +1,7 @@
 /*
  * File: 103-fibonacci.c
- * Auth: Musa_kalamz A Ogunsolu */
+ * Auth: Musa_kalamz A Ogunsol
+ */
 
 #include <stdio.h>
 
