@@ -12,10 +12,8 @@
  * Return: The absolute value of the integer.
  */
 
-int _abs(int)
+int _abs(int num)
 {
-	int num;
-
 	if (num < 0)
 		return (-num);
 	else
