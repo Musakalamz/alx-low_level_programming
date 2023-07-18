@@ -6,9 +6,10 @@
 #include "main.h"
 
 /**
- * _islower -checks for lowercase character
+ *_islower - Checks if a character is lowercase
  * @c - character to be checkex
- * return - (1) if c is lowercase or (0) if otherwise.
+ * 
+ * Return: 1 if character is lowercase, 0 otherwise.
  */
 
 int _islower(int c)
