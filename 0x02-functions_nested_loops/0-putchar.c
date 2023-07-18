@@ -3,7 +3,6 @@
  * Auth: Musa_kalamz A Ogunsolu
  */
 
-#include <stdio.h>
 #include "main.h"
 
 /*
