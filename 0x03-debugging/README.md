@@ -27,8 +27,8 @@ functions written in the project.
 * **1. Like, Comment, Subscribe**
   * [1-main.c](./1-main.c): C fille comments out the code that is causing the output to go into an infinite loop. 
 
-* **2. 0 > 972? **
-  * [2-largest_number.c](./ 2-largest_number.c): C function that prints the largest of three integers.
+* **2. 0 > 972?**
+  * [2-largest_number.c](./2-largest_number.c): C function that prints the largest of three integers.
 
 * **3. Leap year**
   * [3-print_remaining_days.c](./3-print_remaining_days.c): C function that converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration. 
