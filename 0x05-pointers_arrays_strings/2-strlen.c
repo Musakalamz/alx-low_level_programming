@@ -1,7 +1,7 @@
 /* 
-  * File: 2-strlen.c 
-  * Auth: Musa_kalamz A Ogunsolu 
-  */
+ * File: 2-strlen.c
+ * Auth: Musa_kalamz A Ogunsolu
+ */
 
 #include "main.h"
 
