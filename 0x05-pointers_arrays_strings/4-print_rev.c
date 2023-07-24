@@ -3,7 +3,7 @@
  * Auth: Musa_kalamz A Ogunsolu
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_rev - Prints a string in reverse.

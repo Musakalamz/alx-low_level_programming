@@ -3,7 +3,7 @@
  * Auth: Musa_kalamz A Ogunsolu
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * rev_string - Reverses a string.
