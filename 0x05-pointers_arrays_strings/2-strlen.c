@@ -1,4 +1,4 @@
-/* 
+/*
  * File: 2-strlen.c
  * Auth: Musa_kalamz A Ogunsolu
  */
