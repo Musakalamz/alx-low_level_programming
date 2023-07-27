@@ -1,30 +1,33 @@
 /*
- * File: 101-print_number.c
+ * File: 101-print_number.
  * Auth: Musa_kalamz A Ogunsolu
  */
 
 #include "main.h"
 
 /**
- * print_number - prints an integer.
- * @n: integer to be printed.
+ * print_number - Prints an integer.
+ * @n: The integer to be printed.
  */
 
 void print_number(int n)
 {
-	unsigned int num;
+	unsigned int num = n;
+	int div = 1;
 
 	if (n < 0)
 	{
-		num = -n;
 		_putchar('-');
-	} else
-	{
-		num = n;
+		num = -num;
 	}
 
-	if (num / 10)
-		print_number(num / 10);
+	while ((num / div) >= 10)
+		div *= 10;
 
-	_putchar((num % 10) + '0');
+	while (div > 0)
+	{
+		_putchar((num / div) + '0');
+		num %= div;
+		div /= 10;
+	}
 }
