@@ -27,7 +27,7 @@ in the project.
 | `5-strstr.c` | `char *_strstr(char *haystack, char *needle);`          |
 | `7-print_chessboard.c` | `void print_chessboard(char (*a)[8]);`        |
 | `8-print_diagsums.c` | `void print_diagsums(int *a, int size);`        |
-| `9-set_string.c` | `void set_string(char **s, char *to);`              |
+| `100-set_string.c` | `void set_string(char **s, char *to);`              |
 
 ## Tasks :page_with_curl:
 
@@ -77,13 +77,13 @@ in the project.
   * [101-crackme_password](./101-crackme_password): File containing the password for
   the [crackme2](https://github.com/holbertonschool/0x06.c) executable.
 
-## File: 101-crackme_password contains the password for the [crackme2](https://github.com/holbertonschool/0x06.c) executable.:relieved:
+### File: 101-crackme_password contains the password for the [crackme2](https://github.com/holbertonschool/0x06.c) executable.:relieved:
 - You may need to install the `openssl` library to run the crakme2 program: `sudo apt install libssl-dev`
 - Edit the source list `sudo vim /etc/apt/sources.list` to add the following line: `deb http://security.ubuntu.com/ubuntu xenial-security main` Then `sudo apt update` and `sudo apt install libssl1.0.0`
 
 OR 
 
-## The Advanced task no 9:satisfied:
+### The Advanced task no 9:satisfied:
 1. open the file using `vi -b 101-cranckme_password`
 2. when you see the vi window, don't use the insert mode, just type `:set binary` and hit enter
 3. type `:set noeol` and hit enter
