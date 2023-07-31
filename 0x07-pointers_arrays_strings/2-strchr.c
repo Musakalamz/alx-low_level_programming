@@ -1,7 +1,7 @@
 /*
  * File: 2-strchr.c
  * Auth: Musa_kalamz A Ogunsolu
- **
+ */
 
 #include "main.h"
 
