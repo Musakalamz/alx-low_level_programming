@@ -37,7 +37,8 @@ using them with `ar`, `ranlib`, and `nm`.
 
   * [main.h](./main.h): Header file containing the prototypes of all functions
   included in `libmy.a`.
-Steps to create static library.
+
+	"Steps to create static library.
 		- First compile all `.c` files to get our object files `.o` files.
 			`gcc -c *c`
 		- Then we create our static library from our object files.
