@@ -24,8 +24,8 @@ functions written in the project.
 | `4-pow_recursion.c`       | `int _pow_recursion(int x, int y);`   |
 | `5-sqrt_recursion.c`      | `int _sqrt_recursion(int n);`         |
 | `6-is_prime_number.c`     | `int is_prime_number(int n);`         |
-| `7-is_palindrome.c`       | `int is_palindrome(char *s);`         |
-| `100-wildcmp.c`           | `int wildcmp(char *s1, char *s2);`    |
+| `100-is_palindrome.c`       | `int is_palindrome(char *s);`         |
+| `101-wildcmp.c`           | `int wildcmp(char *s1, char *s2);`    |
 
 ## Tasks :page_with_curl:
 
