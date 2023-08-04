@@ -37,19 +37,19 @@ using them with `ar`, `ranlib`, and `nm`.
 
   * [main.h](./main.h): Header file containing the prototypes of all functions
   included in `libmy.a`.
-.
-* Steps to create static library.
-		* `First compile all `.c` files to get our object files `.o` files.
-			`gcc -c *c``
-		* `Then we create our static library from our object files.
-			`ar rc libmy.a *.o``
-		* `Then we use this to list in order to confirm if our static library was created successfully.
-			`ar -t libmy.a``
-		× `We confirm if our object files were linked successfully.
-			`nm libmy.a``
-		* `We convert it into random library.
-			`ranlib libmy.a``
-	* `Compile the main code to test our static library this way: `gcc -std=gnu89 main.c -L -lmy -o(new_file_name)``
+Steps to create static library.
+		- First compile all `.c` files to get our object files `.o` files.
+			`gcc -c *c`
+		- Then we create our static library from our object files.
+			`ar rc libmy.a *.o`
+		- Then we confirm if our static library was created successfully by listing it with this command.
+			`ar -t libmy.a`
+		- We confirm if our object files were linked successfully.
+			`nm libmy.a`
+		- We converts to random library
+			`ranlib libmy.a`
+	- Compile the main code to test our static library this way: `gcc -std=gnu89 main.c -L -lmy -o(new_file_name)`
+ 
  
 * **1. Without libraries what have we? We have no past and no future**
   * [create_static_lib.sh](./create_static_lib.sh): Bash script that creates a static
