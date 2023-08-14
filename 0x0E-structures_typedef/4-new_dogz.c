@@ -1,5 +1,5 @@
 /*
- * File: 4-new_dog.c
+ * 4-new_dog.c
  * Auth: Musa_kalamz A Ogunsolu
  */
 
@@ -18,9 +18,9 @@ dog_t *new_dog(char *name, float age, char *owner);
  */
 int _strlen(char *str)
 {
-	int len = 0;
+	int index, len;
 
-	while (*str++)
+	for (index = 0; str[index]; index++)
 		len++;
 
 	return (len);
@@ -36,7 +36,7 @@ int _strlen(char *str)
  */
 char *_strcopy(char *dest, char *src)
 {
-	int index = 0;
+	int index;
 
 	for (index = 0; src[index]; index++)
 		dest[index] = src[index];
@@ -47,42 +47,44 @@ char *_strcopy(char *dest, char *src)
 }
 
 /**
- * new_dog - Creates a new dog.
- * @name: The name of the dog.
- * @age: The age of the dog.
- * @owner: The owner of the dog.
+ * new_dog - create a new dog.
+ * @name: The name of new dog to be created.
+ * @age: The age of the new dog to be created.
+ * @owner: The owner of the new dog.
  *
  * Return: The new struct dog.
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *doggo;
+	dog_t *dog;
 
 	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
 
-	doggo = malloc(sizeof(dog_t));
-	if (doggo == NULL)
+	dog = malloc(sizeof(dog_t));
+
+	if (dog == NULL)
 		return (NULL);
 
-	doggo->name = malloc(sizeof(char) * (_strlen(name) + 1));
-	if (doggo->name == NULL)
+	dog->name = malloc(sizeof(char) * (_strlen(name) + 1));
+	if (dog->name == NULL)
 	{
-		free(doggo);
+		free(dog);
 		return (NULL);
 	}
 
-	doggo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
-	if (doggo->owner == NULL)
+	dog->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
+	if (dog->owner == NULL)
 	{
-		free(doggo->name);
-		free(doggo);
+		free(dog->name);
+		free(dog);
 		return (NULL);
 	}
 
-	doggo->name = _strcopy(doggo->name, name);
-	doggo->age = age;
-	doggo->owner = _strcopy(doggo->owner, owner);
+	dog->name = _strcopy(dog->name, name);
+	dog->age = age;
+	dog->owner = _strcopy(dog->owner, owner);
 
-	return (doggo);
+	return (dog);
 }
