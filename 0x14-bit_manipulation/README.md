@@ -71,4 +71,4 @@ functions written in the project.
 * **7. Crackme3**
   * [101-password](./101-password): File containing the password for the
   [crackme3](https://github.com/holbertonschool/0x13.c) executable. 
-	× Do it this way => echo -e “Hol\x04” > “your file name”  
+	* Do it this way => echo -e “Hol\x04” > “your file name”  
