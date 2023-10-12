@@ -8,6 +8,8 @@
  *	  for 0x17-doubly_linked_lists directory.
  */
 
+#include <stdio.h>
+
 /**
  * struct dlistint_s - doubly linked list
  * @n: integer
