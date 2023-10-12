@@ -1,5 +1,5 @@
 /*
- * File: 103-keygen.c 
+ * File: 103-keygen.c
  * Auth: Musa_kalamz A Ogunsolu
  */
 
