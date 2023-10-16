@@ -50,4 +50,6 @@ them and how to use them with `$LD_LIBRARY_PATH`, `nm`, `ldd`, and `ldconfig`.
     * `int div(int a, int b);`
     * `int mod(int a, int b);`
 
+* **3. Code injection: Win the Giga Millions!**
+  * [101-make_me_win.sh](./101-make_me_win.sh): C dynamic library containing   Giga Millions program runs.
  
